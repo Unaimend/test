@@ -7,7 +7,10 @@ def main():
     return name
 
 
+def sayGoodBye(name):
+    print(f"Goodbye {name}")
 
 
 if __name__ ==  "__main__":
     name = main()
+    sayGoodBye(name)
