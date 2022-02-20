@@ -2,8 +2,12 @@
 
 
 def main():
-    print("Hello from Python")
+    name = input("Please enter your name: " )
+    print(f"Hello from Python {name}" )
+    return name
+
+
 
 
 if __name__ ==  "__main__":
-    main()
+    name = main()
