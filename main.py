@@ -3,7 +3,7 @@
 
 def main():
     name = input("Please enter your name: " )
-    print(f"Hello from Python {name}" )
+    print(f"Good bye from Python {name}" )
     return name
 
 
